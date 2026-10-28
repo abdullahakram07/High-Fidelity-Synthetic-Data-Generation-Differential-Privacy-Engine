@@ -1,0 +1,11 @@
+{
+  "rows": 5,
+  "seed": 42,
+  "quasi_identifiers": ["age_band", "region"],
+  "columns": [
+    {"name": "age_band", "kind": "category", "categories": ["18-29", "30-44", "45-64", "65+"]},
+    {"name": "region", "kind": "category", "categories": ["north", "south", "east", "west"]},
+    {"name": "monthly_spend", "kind": "number", "minimum": 0, "maximum": 5000},
+    {"name": "contact_email", "kind": "email"}
+  ]
+}

@@ -1,0 +1,8 @@
+services:
+  synthetic-data:
+    build: .
+    ports:
+      - "127.0.0.1:8082:8000"
+    read_only: true
+    tmpfs:
+      - /tmp
